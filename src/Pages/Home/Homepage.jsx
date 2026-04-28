@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
-import StatsSection from './components/StatsSection'
+import StatSection from './components/StatSection'
 import Services from './components/Services'
 import Priorities from './components/Priorities'
 import CommonSymptoms from './components/CommonSymptoms'
@@ -16,9 +16,10 @@ import CTA from './components/CTA'
 const Homepage = () => {
   return (
     <>
+    <div className='w-full"'>
     <HeroSection/>
     <AboutSection/>
-    <StatsSection/>
+    <StatSection/>
     <Services/>
     <Priorities/>
     <CommonSymptoms/>
@@ -29,6 +30,8 @@ const Homepage = () => {
     <Gallery/>
     <Blog/>
     <CTA/>
+    </div>
+
     </>
   )
 }

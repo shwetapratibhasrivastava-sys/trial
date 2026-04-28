@@ -264,7 +264,8 @@ function CarouselItem({
   );
 }
 
-export {
+
+export{
   Carousel,
   CarouselContent,
   CarouselNavigation,

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const StatsSection = () => {
+const StatSection = () => {
   return (
     <div>StatsSection</div>
   )
 }
 
-export default StatsSection
+export default StatSection

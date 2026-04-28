@@ -1,8 +1,12 @@
+import { Footer7 } from '@/components/footer-7'
 import React from 'react'
 
 const Footerpage = () => {
   return (
-    <div>Footerpage</div>
+    <>
+   <Footer7/>
+    </>
+  
   )
 }
 

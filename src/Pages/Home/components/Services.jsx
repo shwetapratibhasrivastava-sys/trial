@@ -1,8 +1,11 @@
 import React from 'react'
+import Basic from '../../../../src/components/hover-card'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+    <Basic/>
+    </>
   )
 }
 

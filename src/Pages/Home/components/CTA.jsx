@@ -1,8 +1,12 @@
 import React from 'react'
+import StatsSection from '../../../components/call-to-action'
 
 const CTA = () => {
   return (
-    <div>CTA</div>
+    <>
+    <StatsSection/>
+
+    </>
   )
 }
 
